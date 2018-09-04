@@ -1,0 +1,170 @@
+/* .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+body{
+    background-image: url(assets/bckgrnd.png);
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #333;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+
+
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bitmoji{
+    border: 3px solid #2c5fa8;
+    border-radius: 100px;
+    position: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.arrow{
+    position: relative;
+}
+
+.section{
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(150,150,150,0.6);
+    
+
+}
+
+.portfolio{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+
+footer{
+    border-top: 2px;
+    border-color: white;
+    grid-row: span 3; 
+    justify-content: center;
+} 
+
+/* DESKTOP DESIGN STARTS HERE */
+
+@media only screen and (min-width: 600px) {
+
+body{
+    background-image: url(assets/bckgrnd.png);
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #333;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    width: 700px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bitmoji{
+    border: 3px solid #2c5fa8;
+    border-radius: 100px;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    
+}
+
+.arrow{
+    position: relative;
+}
+
+.section{
+    padding-top: 20px;
+    padding-bottom: 20px;   
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(150,150,150,0.6);
+    margin-top: 70px;
+    
+
+}
+
+.portfolio{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 25px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+
+
+footer{
+    border-top: 2px;
+    border-color: white;
+    grid-row: span 3; 
+    justify-content: center;
+} 
+}
